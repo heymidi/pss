@@ -11,23 +11,32 @@ outline: 0;
 padding: 0;
 margin: 0;
 }
-
-
-
-/* end reset */
-/*
-.bigwrapper {
-background: rgb(125,126,125);
-background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(105,107,103,1) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(105,107,103,1)));
-background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(105,107,103,1) 100%);
-background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(105,107,103,1) 100%);
-background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(105,107,103,1) 100%);
-background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(105,107,103,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#696b67',GradientType=0 );
-
+p {
+	padding-bottom: 20px;
+	line-height: 25px;
+	font-size: 15px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
 }
-*/
+
+li {
+	font-size: 15px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 300;
+	padding-top: 30px;
+}
 
 .wrapper {
 	width: 100%;
@@ -41,8 +50,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
 	background-image: url(images/homeHVAC.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
-	/* height: 1130px; 
-	width: 1699px; */
+	margin: 0 auto;
 }
 
 .bgimage-services {
@@ -50,8 +58,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
 	background-image: url(images/services-HVAC.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
-	/*height: 1130px;
-	width: 1699px; */
+	margin: 0 auto;
 }
 
 .bgimage-history {
@@ -59,8 +66,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
 	background-image: url(images/history-HVAC.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
-	/*height: 1130px;
-	width: 1699px; */
+	margin: 0 auto;
 }
 
 .bgimage-safety {
@@ -68,8 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
 	background-image: url(images/safety-education.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
-	/*height: 1130px;
-	width: 1699px; */
+	margin: 0 auto;
 }
 
 .bgimage-contact {
@@ -77,8 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
 	background-image: url(images/vancouver.jpg);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
-	/*height: 1130px;
-	width: 1699px; */
+	margin: 0 auto;
 }
 
 .greybackground {
@@ -95,21 +99,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', end
 	padding-left: 20px;
 	padding-top: 5px;
 }
-
-
-/*
-.blue {
-	background-color: #0074B3;
-	height: 7px;
-	margin-top: 4px;
-}
-
-.yellow{
-	background-color: #FFCF0B;
-	height: 7px;
-	margin-top: 4px;
-} 
-*/
 
 .grey {
 	margin-top: 500px;
@@ -147,68 +136,72 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4d8d8d8', e
 	/* padding-bottom: 30px; */
 }
 
-.duct-pics li {
-	display: inline;
-}
+	.duct-pics li {
+		display: inline;
+	}
 
 .history-pics {
 	max-width:1000px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
-	/* padding-bottom: 30px; */
 }
 
-.history-pics li {
-	display: inline;
-}
+	.history-pics li {
+		display: inline;
+	}
 
 
 .picture {
-	/* padding-top: 30px; */
 	float: left;
+	padding-top: 10px;
 	padding-bottom: 30px;
-	/* margin-left: 220px; */
 }
 
 .about {
-	/* padding-top: 50px; */
-	/* width: 650px; */
 	width: 60%;
 	min-width: 250px;
 	float: left;
 	margin-left: 10%;
-/*	margin-right: 150px; */
 	margin-bottom: 20px;
 }
 
-.about li {
-	padding-bottom: 10px;
-	line-height: 20px;
+	.about li {
+		line-height: 20px;
+	}
+
+.contact {
+	width: 60%;
+	min-width: 250px;
+	float: left;
+	margin-left: 10%;
 }
+
+	.contact li {
+		line-height: 20px;
+		list-style-type: none;
+	}
 
 .clear {
 	clear: both;
 }
 
 .associations {
-	/* margin-left: 40px; */
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
 .clients {
-/*	width: 70%; */
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
 }
 
-.clients li {
-	display: inline;
-	margin-right: 40px;
-}
+	.clients li {
+		display: inline;
+		margin-right: 40px;
+	}
 
 .black {
 	background-color: #000;
@@ -222,7 +215,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4d8d8d8', e
 }
 
 .footer p {
-	/* color: #3e3e3e; */
 	color: #575757;
 	font-size: 15px;
 	font-family: 'Exo 2', sans-serif;
@@ -245,7 +237,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4d8d8d8', e
 
 .footer a {
 	text-decoration: none;
-	/* color: #999; */
 	color: #ABABAB;
 	font-weight: 400;
 }
@@ -264,7 +255,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4d8d8d8', e
 	width: 35%;
 	min-width: 250px;
 	padding-left: 30px;
-	/* padding-right: 30px; */
 }
 
 .column-three {
@@ -273,68 +263,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4d8d8d8', e
 	padding-left: 30px;
 }
 
-.contact li {
-	list-style-type: none;
-}
-
-p {
-	padding-bottom: 20px;
-	line-height: 25px;
-	font-size: 15px;
-	font-family: 'Exo 2', sans-serif;
-	font-weight: 400;
-}
-
-li {
-	font-size: 15px;
-	font-family: 'Exo 2', sans-serif;
-	font-weight: 400;
-}
-
-h1 {
-	font-size: 20px;
-	font-family: 'Exo 2', sans-serif;
-	font-weight: 400;
-}
-
-h2 {
-	font-size: 18px;
-	font-family: 'Exo 2', sans-serif;
-	font-weight: 400;
-	padding-top: 30px;
-}
-
-/* #color {
-	background-image: url(file:///Users/reganperkins/Documents/PSS/images/color.png);
-	background-repeat: repeat-x;
-	height: 134px; 
-} */
-
 #nav {
 	float: right;
 	padding-top: 20px;
 	margin-right: 20px;
 }
 
-#nav ul{
-	text-align: right;
-}
+	#nav ul{
+		text-align: right;
+	}
 
-#nav li {
-	font-size: 20px;
-	list-style-type: none;
-	display: inline; 
-	padding-left: 25px;
-	padding-right: 5px;
-	margin-bottom: 15px;
-}
+	#nav li {
+		font-size: 20px;
+		list-style-type: none;
+		display: inline; 
+		padding-left: 25px;
+		padding-right: 5px;
+		margin-bottom: 15px;
+	}
 
-#nav li a {
-	text-decoration: none;
-	color: #3f3f3f;
-}
+	#nav li a {
+		text-decoration: none;
+		color: #3f3f3f;
+	}
 
-#nav li a:hover {
-	text-decoration: none;
-	color: #737777;
-}
+	#nav li a:hover {
+		text-decoration: none;
+		color: #737777;
+	}
