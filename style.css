@@ -16,25 +16,26 @@ p {
 	line-height: 25px;
 	font-size: 15px;
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 li {
 	font-size: 15px;
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 h1 {
 	font-size: 25px;
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 300;
+	font-weight: 500;
+	margin-bottom: 10px;
 }
 
 h2 {
 	font-size: 18px;
 	font-family: 'Exo 2', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	padding-top: 30px;
 }
 
@@ -134,6 +135,11 @@ h2 {
 	margin-right: auto;
 	margin-top: 10px;
 	/* padding-bottom: 30px; */
+}
+
+.duct-pics img {
+	width: 23%;
+	min-width: 130px;
 }
 
 	.duct-pics li {
